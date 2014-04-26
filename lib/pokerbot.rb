@@ -130,22 +130,6 @@ elsif message['message'].downcase =~ /^!mms (.*)?/i
 msglist = message['message'].split(/mms (.*)?/i)
 msg = "/me turns into a giant M&M cannon and launches a giant M&M at " + msglist[1] + "  knocking  "  + msglist[1] + " out and covering " + msglist[1] + " in chocolate!"
 self.send('MSG',message['channel'],msg)
-if message['message'].downcase =~ /^!slap (.*)?/i
-msglist = message['message'].split(/slap (.*)?/i)
-msg = "/me slaps " + msglist[1] + " around a bit with a large penis."
-self.send('MSG',message['channel'],msg)
-elsif message['message'].downcase =~ /^!fuck (.*)?/i
-msglist = message['message'].split(/fuck (.*)?/i)
-msg = "/me grabs " + msglist[1] + " and tears off his/her pants and boxers/panties, sliding a my dick in their asshole!"
-self.send('MSG',message['channel'],msg)
-elsif message['message'].downcase =~ /^!fuckgirl (.*)?/i
-msglist = message['message'].split(/fuckgirl (.*)?/i)
-msg = "/me grabs " + msglist[1] + " and tears off her pants(or)skirt and panties, sliding my dick in her pussy"
-self.send('MSG',message['channel'],msg)
-elsif message['message'].downcase =~ /^!deepthroat (.*)?/i
-msglist = message['message'].split(/deepthroat (.*)?/i)
-msg = message['character'] + " tears off his pants and grabs " + msglist[1] + " asking him/her to suck his penis."
-self.send('MSG',message['channel'],msg)
 end
     end
   end
